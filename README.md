@@ -1,8 +1,8 @@
 ### NoBadWordsCombiner (http://hsdfinder.com/combiner/) 
-automatically merge the gene models annotations (e.g., NCBI, SwissProt, etc.) and screen out those "bad words" (e.g., hypothetical and uncharacterized proteins)
+automatically integrate the gene models annotations (e.g., NCBI, SwissProt, etc.), and minimize those "bad words" (e.g., hypothetical and uncharacterized proteins)
 
 #### What's NoBadWordsCombiner?
-Unlike the NCBI-NR or UniProtKB/Swiss-Prot, although they provide valuable function description of the interested genes; however, many hypothetical proteins or ‘bad name’ proteins are also included in the respective database, which will mess up the interpretation of HSDs results. Although it is not the focus of this article, we have developed another software can integrate the gene function information together without ‘bad words’ including Nr-NCBI, UniProtKB/Swiss-Prot, KEGG, Pfam and GO etc..
+Unlike the NCBI-NR or UniProtKB/Swiss-Prot, although they provide valuable function description of the interested genes; however, many hypothetical proteins or ‘bad name’ proteins are also included in the respective database, which will mess up the interpretation of HSDs results. Although it is not the focus of this article, we have developed another software can integrate the gene function information together minimize ‘bad words’ including Nr-NCBI, UniProtKB/Swiss-Prot, KEGG, Pfam and GO etc..
 ```
 Environmental Requirement: Pandas
 To collect pandas packages : sudo pip install pandas
