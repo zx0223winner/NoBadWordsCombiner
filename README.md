@@ -1,4 +1,4 @@
-### 1. NoBadWordsCombiner (http://hsdfinder.com/combiner/) 
+### 1. [NoBadWordsCombiner](http://hsdfinder.com/combiner/) 
 automatically integrate the gene models annotations (e.g., NCBI, SwissProt, etc.), and minimize those "bad words" (e.g., hypothetical and uncharacterized proteins)
 
 ### 2. What's NoBadWordsCombiner?
@@ -19,4 +19,4 @@ X. Zhang, Yining. Hu, D. Smith (2021). NoBadWordsCombiner - NoBadWords Combiner 
 X. Zhang, et.al. D. Smith (2021). Draft genome sequence of the Antarctic green alga _Chlamydomonas_ sp. UWO241 DOI:https://doi.org/10.1016/j.isci.2021.102084
 
 ### 4. Contact
-Usage of this site follows AWS’s Privacy Policy. © Copyright (C) 2021 https://github.com/zx0223winner/NoBadWordsCombiner
+Usage of this site follows AWS’s Privacy Policy. © Copyright (C) 2021
