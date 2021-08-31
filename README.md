@@ -15,12 +15,13 @@ python NoBadWordsCombiner.py -n <NCBI file> -s <Swiss file> -g <Gene list file> 
 python NoBadWordsCombiner.py --ncbi_file=<NCBI file> --swiss_file=<Swiss file> --gene_file=<Gene list file> --ko_file=<Gene list file with KO annotation> --pfam_file=<pfam file> --type=<type> -output_file=<output file name>
 ```
 
-Limitation: There is a possible steep learning curve for users with limited knowledge of bioinformatics, especially for those who are not familiar with the basic BLAST package and dash shell in a Linux/Unix environment. We do hope to further develop the tool, making it more user friendly, including trying to remove some of the middle steps. Unfortunately, we are not yet able to provide a “one-click solution” because of the incompatibility of the various databases employed by the tool. That said, we still believe that our tool is comparatively easier to use than some of the other options currently available to scientists. Indeed, presently there are very few tools that can search eukaryotic genome projects, efficiently merging hits from various databases and strengthening gene definitions by minimizing functional descriptions containing ‘bad words’. Thus, we believe that our tool will provide a well-needed service to the bioinformatics and genomics community.
+### 3.Limitation
+There is a possible steep learning curve for users with limited knowledge of bioinformatics, especially for those who are not familiar with the basic BLAST package and dash shell in a Linux/Unix environment. We do hope to further develop the tool, making it more user friendly, including trying to remove some of the middle steps. Unfortunately, we are not yet able to provide a “one-click solution” because of the incompatibility of the various databases employed by the tool. That said, we still believe that our tool is comparatively easier to use than some of the other options currently available to scientists. Indeed, presently there are very few tools that can search eukaryotic genome projects, efficiently merging hits from various databases and strengthening gene definitions by minimizing functional descriptions containing ‘bad words’. Thus, we believe that our tool will provide a well-needed service to the bioinformatics and genomics community.
 
-### 3. Reference
+### 4. Reference
 X. Zhang, Yining. Hu, D. Smith (2021). Protocol for using NoBadWordsCombiner to merge and minimize ‘bad words’ from BLAST hits against multiple eukaryotic gene annotation databases etc. doi: upcoming
 
 X. Zhang, et.al. D. Smith (2021). Draft genome sequence of the Antarctic green alga _Chlamydomonas_ sp. UWO241 DOI:https://doi.org/10.1016/j.isci.2021.102084
 
-### 4. Contact
+### 5. Contact
 Usage of this site follows AWS’s Privacy Policy. © Copyright (C) 2021
