@@ -1,3 +1,39 @@
+# NoBadWordsCombiner v1.0
+
+# Copyright 2021 Xi Zhang, Yining Hu and David R. Smith
+
+
+#   This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Dependencies:
+#Pandas
+
+#To collect pandas packages: 
+#sudo pip install pandas
+
+#python NoBadWordsCombiner.py -h
+#python NoBadWordsCombiner.py -n <NCBI file> -s <Swiss file> -g <Gene list file> -k <Gene list file with KO annotation> -p <pfam file> -t <type> -o <output file name>
+
+# Or use 
+#python NoBadWordsCombiner.py --ncbi_file=<NCBI file> --swiss_file=<Swiss file> --gene_file=<Gene list file> --ko_file=<Gene list file with KO annotation> --pfam_file=<pfam file> --type=<type> -output_file=<output file name>
+
+# If you use NoBadWordsCombiner for your research, please cite:
+# X. Zhang, Yining. Hu, D. Smith (2021). Protocol for using NoBadWordsCombiner to merge and minimize ‘bad words’ from BLAST hits against multiple eukaryotic gene annotation databases etc. Star Protocols (Cell Press)
+
+# To refer where the tool first being applied, please cite:
+# X. Zhang, et.al. D. Smith (2021). Draft genome sequence of the Antarctic green alga Chlamydomonas sp. UWO241 DOI:https://doi.org/10.1016/j.isci.2021.102084 
+
 import sys
 import pandas as pd
 from collections import defaultdict
